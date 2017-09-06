@@ -1,0 +1,41 @@
+Enter a formula in SL form: ~[(AvB)->[D.(E<->F)]]
+
+								F
+						(E<->F) <->
+								E
+				[D.(E<->F)] .
+						D
+		[(AvB)->[D.(E<->F)]] ->
+						B
+				(AvB) v
+						A
+~[(AvB)->[D.(E<->F)]] ~
+
+This is a well formed formula.
+
+
+
+Enter a formula in SL form: ~[(AvB)->[(D.(E<->F))]]
+
+				[(D.(E<->F))]
+		[(AvB)->[(D.(E<->F))]] ->
+						B
+				(AvB) v
+						A
+~[(AvB)->[(D.(E<->F))]] ~
+
+This is not a well formed formula.
+
+
+
+Enter a formula in SL form: [~(avb)->c]       
+
+		c
+[~(avb)->c] ->
+						b
+				(avb) v
+						a
+		~(avb) ~
+
+This is not a well formed formula.
+
